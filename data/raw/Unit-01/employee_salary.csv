@@ -1,0 +1,101 @@
+EmployeeID,Age,Gender,Department,Education,Experience_Years,Salary
+1,24,Male,Sales,Bachelor,0,31250
+2,45,Female,Finance,Master,19,140731
+3,29,Female,HR,Bachelor,5,66795
+4,26,Female,IT,High School,0,29690
+5,27,Male,HR,Bachelor,5,53195
+6,39,Female,Finance,Bachelor,14,94204
+7,40,Female,HR,Master,16,139271
+8,57,Male,Sales,Master,33,215301
+9,48,Female,Marketing,Master,21,156772
+10,53,Male,IT,PhD,31,223081
+11,31,Female,Marketing,Bachelor,7,63901
+12,50,Female,IT,Bachelor,25,145388
+13,44,Female,HR,Bachelor,22,145417
+14,24,Female,Sales,PhD,0,82647
+15,55,Male,HR,PhD,30,224565
+16,45,Male,IT,Bachelor,20,126330
+17,22,Female,Finance,PhD,0,88774
+18,21,Male,Marketing,Bachelor,0,32909
+19,26,Male,Marketing,Bachelor,1,52410
+20,46,Female,Finance,PhD,24,184082
+21,56,Female,Finance,High School,32,164369
+22,47,Male,Finance,Master,25,165068
+23,24,Female,Marketing,Bachelor,0,39541
+24,45,Male,Marketing,PhD,21,186444
+25,28,Male,Marketing,Bachelor,1,36533
+26,29,Male,Finance,Bachelor,4,62783
+27,40,Male,HR,Bachelor,15,114435
+28,53,Male,Finance,Bachelor,27,169373
+29,44,Female,IT,Bachelor,21,141090
+30,36,Female,Finance,Bachelor,13,104901
+31,26,Male,IT,Bachelor,3,62001
+32,35,Female,IT,Bachelor,13,106118
+33,29,Male,Sales,Bachelor,3,56553
+34,22,Female,Finance,Bachelor,0,37344
+35,53,Male,Marketing,Master,30,201202
+36,42,Male,IT,Bachelor,15,112598
+37,44,Female,Finance,Bachelor,17,121214
+38,42,Male,Sales,PhD,19,162546
+39,47,Female,HR,Master,22,161334
+40,44,Female,IT,PhD,22,190476
+41,59,Male,Sales,High School,35,185227
+42,40,Female,Marketing,Master,18,141639
+43,36,Female,Finance,Master,9,108940
+44,57,Male,Sales,Bachelor,33,187511
+45,42,Male,IT,High School,20,121267
+46,29,Male,Sales,PhD,4,97638
+47,41,Male,Marketing,Master,17,141684
+48,53,Female,Marketing,PhD,27,196956
+49,41,Female,HR,Master,14,115052
+50,37,Male,Sales,Bachelor,13,89922
+51,59,Female,HR,Bachelor,37,205329
+52,54,Male,Finance,Bachelor,31,184815
+53,35,Male,IT,Bachelor,11,97357
+54,56,Male,Marketing,PhD,32,221220
+55,46,Female,IT,High School,21,123677
+56,48,Female,HR,Bachelor,22,135372
+57,34,Male,HR,PhD,11,126906
+58,46,Male,Sales,Master,24,175921
+59,22,Male,Sales,Master,0,56092
+60,40,Female,Finance,Bachelor,18,111850
+61,44,Female,HR,Bachelor,21,141229
+62,48,Male,Sales,High School,23,134783
+63,23,Male,Sales,Master,0,53500
+64,29,Female,Finance,Bachelor,7,62070
+65,49,Female,Finance,Bachelor,23,146298
+66,24,Male,Marketing,Master,2,61712
+67,34,Male,Sales,Bachelor,9,86070
+68,29,Male,IT,Bachelor,7,64718
+69,30,Female,Sales,PhD,7,119760
+70,24,Male,IT,Bachelor,2,41958
+71,29,Male,Finance,Bachelor,2,45761
+72,36,Female,Finance,Master,13,111429
+73,21,Female,Sales,Bachelor,0,37500
+74,24,Male,IT,PhD,2,93439
+75,36,Male,Marketing,Master,13,126297
+76,37,Female,Finance,Master,12,117659
+77,23,Female,Finance,Bachelor,0,30107
+78,43,Male,Finance,High School,17,97518
+79,60,Female,IT,Master,36,229499
+80,33,Male,HR,Bachelor,8,77739
+81,48,Female,Marketing,PhD,23,183852
+82,45,Female,IT,Master,23,158787
+83,33,Male,IT,Bachelor,9,90314
+84,27,Male,IT,Bachelor,3,51850
+85,44,Female,Sales,High School,21,118019
+86,54,Male,Marketing,Bachelor,28,166806
+87,39,Female,Sales,PhD,12,129175
+88,26,Male,Sales,Master,4,79756
+89,32,Female,IT,Bachelor,9,78363
+90,21,Male,IT,Bachelor,0,38738
+91,47,Female,Finance,High School,24,123780
+92,28,Female,Finance,Bachelor,2,56812
+93,33,Female,Marketing,Bachelor,9,81582
+94,22,Male,Finance,Bachelor,0,36552
+95,48,Female,IT,Bachelor,25,147544
+96,31,Male,Marketing,Bachelor,4,50055
+97,49,Male,Sales,Bachelor,23,147722
+98,55,Male,HR,High School,31,155900
+99,55,Male,HR,Master,31,194617
+100,54,Male,Sales,Master,32,209482
