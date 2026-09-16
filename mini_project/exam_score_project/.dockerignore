@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+notebooks/
+tests/
+data/raw/*.csv
+deploy/
+docker/Dockerfile.api-only
+*.md
+.env

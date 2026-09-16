@@ -1,0 +1,18 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+
+# API layer
+fastapi
+uvicorn[standard]
+pydantic
+
+# UI layer
+streamlit
+requests
+
+# Testing
+pytest
+httpx

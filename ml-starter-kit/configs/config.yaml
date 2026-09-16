@@ -1,0 +1,35 @@
+# configs/config.yaml
+# Example configuration for the ML Starter Kit.
+# Edit these values to run a different experiment without touching any code --
+# see notebooks/01_end_to_end.ipynb for how this file gets loaded and used.
+
+data:
+  path: data/raw/customer_churn.csv
+  target: churn
+
+split:
+  test_size: 0.2
+  random_state: 42
+  stratify: true
+
+preprocessing:
+  numeric_strategy: median      # mean | median | most_frequent | null
+  scaler: standard              # standard | minmax | robust | null
+  categorical_encoder: onehot   # onehot | ordinal
+  categorical_imputation: most_frequent
+
+model:
+  name: logistic
+  parameters:
+    C: 1.0
+    max_iter: 1000
+    random_state: 42
+
+evaluation:
+  cv: 5
+  scoring: roc_auc
+  stratified: true
+
+tuning:
+  param_grid:
+    model__C: [0.01, 0.1, 1.0, 10.0]
