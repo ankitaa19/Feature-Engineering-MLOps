@@ -1,0 +1,30 @@
+# docker/Dockerfile.api-only
+#
+# TEACHING STEP 1 of 3: the smallest possible Dockerfile that packages ONLY the FastAPI
+# prediction service. Build and run THIS one first, before the combined Dockerfile at the
+# repo root -- it's the easiest place to understand what each instruction actually does,
+# without the added complexity of running two processes in one container yet.
+#
+# Build (from the repo root):
+#     docker build -f docker/Dockerfile.api-only -t exam-score-api:practice .
+# Run:
+#     docker run -p 8000:8000 exam-score-api:practice
+# Test:
+#     curl http://localhost:8000/health
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Only what the API needs -- not streamlit yet, on purpose, to keep this image (and this
+# lesson) focused on one thing at a time.
+COPY requirements.txt .
+RUN pip install --no-cache-dir pandas numpy scikit-learn joblib fastapi "uvicorn[standard]" pydantic
+
+COPY features.py .
+COPY app/ app/
+COPY models/ models/
+
+EXPOSE 8000
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
